@@ -1,6 +1,7 @@
 body {
     width: auto;
     height: auto;
+
     margin: 25px;
     background-color:darkslateblue ;
     color:azure;
@@ -28,10 +29,12 @@ footer {
 h1, h2, p, figcaption {
     text-align: center;
     margin: 5px;
+    
   }
 
 h3, h4 {
     margin: 10px;
+    
   }
 
 a {
@@ -46,6 +49,7 @@ ul {
 .seccion {
     display: flex;
     align-items:flex-start;
+
 }
 
 .imagen {
@@ -67,12 +71,19 @@ img {
 .bio {
     padding: 0 20px;
     margin: 0 20px;
+    height: auto;
+    word-wrap: break-word;
+    overflow: auto;
 
 }
 .parrafo {
     text-align: left;
+    
 }
 .orden {
     display: flex;
-    align-items:flex-start;
+    height: auto;
+
+
+    word-wrap: break-word;
 }
