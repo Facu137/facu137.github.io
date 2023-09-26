@@ -1,55 +1,9 @@
-body {
-    width: auto;
-    height: auto;
-
-    margin: 25px;
-    background-color:darkslateblue ;
-    color:azure;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:larger;
-  }
-header {
-    background-color:midnightblue;
-    padding: 30px;
-    border-style:outset;
-}  
-
-section {
-    background-color:midnightblue;
-    padding: 30px;
-    border-style:outset;
+.main-content {
+    margin-top: 80px; /* Ajusta la cantidad de margen según tus necesidades */
 }
-
-footer {
-    background-color:midnightblue;
-    padding: 30px;
-    border-style:outset;
-}
-
-h1, h2, p, figcaption {
-    text-align: center;
-    margin: 5px;
-    
-  }
-
-h3, h4 {
-    margin: 10px;
-    
-  }
-
-a {
-    color:steelblue;
-  }
-
-ul {
-    margin: 5px 100px 5px 17px;
-    padding: 0px 5px;
-}
-
-.seccion {
-    display: flex;
-    align-items:flex-start;
-
+/* styles.css */
+.content-padding {
+    padding-left: 35px; /* Ajusta la cantidad de relleno según tus necesidades */
 }
 
 .imagen {
@@ -67,23 +21,4 @@ ul {
 img {
     max-width: 100%;
     height: auto;
-}
-.bio {
-    padding: 0 20px;
-    margin: 0 20px;
-    height: auto;
-    word-wrap: break-word;
-    overflow: auto;
-
-}
-.parrafo {
-    text-align: left;
-    
-}
-.orden {
-    display: flex;
-    height: auto;
-
-
-    word-wrap: break-word;
 }
